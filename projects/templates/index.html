@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+        {% load static %}
+		<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="{%static 'assets/css/main.css'%}" />
+        <noscript><link rel="stylesheet" href="{%static 'assets/css/noscript.css'%}" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Who am i</a></li>
+							<li><a href="#two">What i do</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Welcome!</h1>
+							<p>Hey! Welcome to my website! I'm Khant Thurein Han @ Leo, an aspiring Software Engineer currently studying at the University of Melbourne!</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="{% static 'images/techhead.jpg'%}" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Tech Head</h2>
+                                    <p>I am always up-to-date about the latest technology. My interests are mainly phones, pc/laptops, VR/AR and audio devices.</p>
+
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="{% static 'images/gamer.jpg'%}" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+                                    <h2>Gamer</h2>
+                                    <p>I mainly play Dota 2 but I also play a variety of singleplayer games, especially JRPG. My favorites include Persona 5, Nier:Automata, Danganronpa and God of War.</p>
+
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="{% static 'images/music.jpg'%}" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Music Enthusiast</h2>
+                                    <p>I'm into Pop, J-Rock, and EDM. Favorite artists are ONE OK ROCK, Aimer, Ed Sheeran, Alan Walker and Hiroyuki Sawano.</p>
+
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Skills</h2>
+							<p>I'm currently in my second year in my Bachelor's Degree in Computer Science. I love critical-thinking and problem-solving.</p>
+							<div class="features">
+								<section>
+                                    <img class = "icon solid major "src="{%static 'images/django.png'%}">
+									<h3>Django</h3>
+									<p>Full stack web development framework using Python. In fact, this website was created using the Django framework!</p>
+								</section>
+								<section>
+									<img class = "icon solid major "src="{%static 'images/nodejs.png'%}">
+									<h3>Node.js</h3>
+									<p>Server side web development using JavaScript. Used together with Express.js.</p>
+								</section>
+								<section>
+									<img class = "icon solid major "src="{%static 'images/python.jpg'%}">
+									<h3>Python</h3>
+									<p>My language of choice! Currently, I am most proficient in Python.</p>
+								</section>
+								<section>
+									<img class = "icon solid major "src="{%static 'images/c-programming.png'%}">
+									<h3>C</h3>
+									<p>Proficient in C. Mainly used in university classes and learning algorithms.</p>
+								</section>
+								<section>
+									<img class = "icon solid major "src="{%static 'images/java.png'%}">
+									<h3>Java</h3>
+									<p>My first programming language!</p>
+								</section>
+								<section>
+									<img class = "icon solid major "src="{%static 'images/database.png'%}">
+									<h3>SQL/NoSQL</h3>
+									<p>Basic skills in Relational Databases and MySQL, as well as NoSQL database programs such as MongoDB.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+                            <h2>Get in touch</h2>
+                            <br>
+							<ul class="contact">
+                                <li>
+                                    <h3>Email</h3>
+                                    <a href="mailto:khantthureinhan.professional@gmail.com">khantthureinhan.professional@gmail.com</a>
+                                </li>
+                                <li>
+                                    <h3>Social</h3>
+                                    <ul class="icons">
+                                        <li><a href="https://www.facebook.com/chintgel" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                                        <li><a href="https://github.com/xlelx" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="https://www.instagram.com/xlelxz/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/khant-thurein-han/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Khant Thurein Han</li><li>Desgin credits to <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{%static 'assets/js/jquery.min.js'%}"></script>
+			<script src="{%static 'assets/js/jquery.scrollex.min.js'%}"></script>
+			<script src="{%static 'assets/js/jquery.scrolly.min.js'%}"></script>
+			<script src="{%static 'assets/js/browser.min.js'%}"></script>
+			<script src="{%static 'assets/js/breakpoints.min.js'%}"></script>
+			<script src="{%static 'assets/js/util.js'%}"></script>
+			<script src="{%static 'assets/js/main.js'%}"></script>
+
+	</body>
+</html>
